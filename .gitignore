@@ -24,3 +24,62 @@ Thumbs.db
 
 # dotenv files
 .env
+
+# Log files
+*.log
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# PyCharm
+.idea/
+
+# Local settings
+*.local
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Coverage reports
+coverage.xml
+
+# Sphinx documentation
+docs/_build/
