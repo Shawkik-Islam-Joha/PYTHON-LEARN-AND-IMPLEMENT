@@ -22,3 +22,26 @@ print(a > 2 and a < 10)   # True (both conditions true)
 print(a > 10 or a < 3)    # False (both false)
 print(not (a > 2))        # False (opposite of True)
 
+a = 5        # 0101
+b = 3        # 0011
+
+print(a & b)   # 1  → 0001
+print(a | b)   # 7  → 0111
+print(a ^ b)   # 6  → 0110 (exclusive OR)
+
+if not (a&1):   # Check even odd in bit level
+    print("Even")
+else:
+    print("Odd")
+
+# Identity Check Operators
+
+x = [1, 2]
+y = [1, 2]
+z = x
+
+print(x == y)       # True (values same)
+print(x is y)       # False (not same object)
+print(x is z)       # True (same object)
+
+
