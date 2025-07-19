@@ -5,5 +5,5 @@ for i in range(100):
 
 for x in range(1,100,5):
   if x>50:
-    continue     # Skip this iteration of x
+    continue     # Skip this iteration of x, after x=46, nothing will be printed
   print(f"Another Loop run {x}")
